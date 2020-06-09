@@ -3,7 +3,8 @@ public class CompanionDto {	//꼬마 전설이 정보
     private int skin_ID;
     private String species;		//꼬마 전설이 이름
 
-    //생성자
+    //생성자 생성
+    
     public CompanionDto() {
         super();
     }
