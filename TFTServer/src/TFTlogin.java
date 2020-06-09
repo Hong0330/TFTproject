@@ -49,6 +49,9 @@ public class TFTlogin {
 				//loginName = (DB 로그인 SQL);
 				// 성공 시 : 로그인 성공한 아이디
 				// 실패 시 : LOGINFAIL
+				sql sql = new sql();
+				loginName = sql.selectSummoner_info(ID, PW);
+				sql.closeConnect();
 				
 				if(!loginName.equals("LOGINFAIL")) { //로그인 성공
 					loginName = loginName + " f"; //닉네임 불량 방지
