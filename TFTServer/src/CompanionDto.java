@@ -5,6 +5,7 @@ public class CompanionDto {	//꼬마 전설이 정보
 
     //생성자 생성
     
+    
     public CompanionDto() {
         super();
     }
